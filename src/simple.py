@@ -26,6 +26,7 @@ dataframe2.show()
 dataframe = dataframe.withColumn('Total sales', col('Unit Price') * col('Units Sold'))
 dataframe.show(5)
 dataframe2.dtypes
+# fin
 # drop a column
 
 dataframe3 = dataframe2.drop('Total Revenue')
